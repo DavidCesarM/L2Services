@@ -1,0 +1,13 @@
+﻿1 - Faça referência à DLL Cryptography.dll
+
+2- Using L2.Services.Cryptography
+
+3 - Criptografar:
+	
+    Cryptography cryptography = new PXLabs.Services.Cryptography("Informe aqui a chave de criptografia");
+    string textoCriptografado = cryptography.Encrypt("texto a ser criptografado");
+
+4 - Descriptografar:
+	
+	Cryptography cryptography = new PXLabs.Services.Cryptography("Informe aqui a chave de criptografia");
+	string textoDescriptografado = cryptography.Decrypt("texto a ser descriptografado");
